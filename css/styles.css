@@ -8,7 +8,6 @@ body {
     background-color: #fff;
 }
 
-
 ul {
     list-style-type: none;
 }
@@ -21,6 +20,10 @@ ul {
 
 }
 
+
+
+
+
 /* Navbar styles */
 
 .navbar-logo {
@@ -30,18 +33,21 @@ ul {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
     text-decoration: none;
     
 }
 
-.navbar-logo .blue {
-    color: #4d5ae5;
+.logo-decoration {
+    color: #2e2f42;
 }
 
 .navbar-nav .link {
-color: #2e2f42;
-font-weight: 500;
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 
 }
 
@@ -49,21 +55,34 @@ font-weight: 500;
     color: #404bbf;
 }
 
-.navbar-nav .active:active {
+.navbar-nav .link:active {
     color: #404bbf;
+}
+
+.contacts {
+    font-style: normal;
 }
 
 .contacts .link {
     color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
 
 }
+
 .contacts .link:hover {
     color: #404bbf;
 }
 
+.contacts .link:active {
+    color: #404bbf;
+}
+
+
+
 
 /* Main tittle */
-
 
 .header-section {
     background: #2e2f42;
@@ -81,10 +100,13 @@ font-weight: 500;
 .order-button {
     
     background-color: #4d5ae5;
-    
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
     font-weight: 500;
     letter-spacing: 0.04em;
     color: #fff;
+    cursor: pointer;
 
 }
 
@@ -92,34 +114,58 @@ font-weight: 500;
     background: #404bbf;
 }
 
+.order-button:active {
+    background: #404bbf;
+}
+
+
+
 
 /* sections */
 
-.feature-section h3,
-.team-section h3
-.portfolio-section h3 {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-color: #2e2f42;
-}
-
-.position,
-.team-section .name-tittle {
+.section-tittle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.feature-tittle,
+.name-tittle
+.portfolio-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: inherit;
+}
+
+.team-section {
+    background: #f4f4fd;
+}
+
+.team-list {
+    background-color: #fff;
 }
 
 
-.slogan {
-    color: #f4f4fd;
-}
 
+
+/* Footer */
 
 .footer-section {
     background-color: #2e2f42;
     
 }
 
-.footer-section .white {
+.logo-decoration-footer {
+    color: #f4f4fd;
+}
+
+.slogan {
     color: #f4f4fd;
 }
