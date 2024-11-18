@@ -59,6 +59,11 @@ ul {
     color: #404bbf;
 }
 
+.navbar-nav .link:focus {
+    color: #404bbf;
+    outline: none;
+}
+
 .contacts {
     font-style: normal;
 }
@@ -76,6 +81,10 @@ ul {
 }
 
 .contacts .link:active {
+    color: #404bbf;
+}
+
+.contacts .link:focus {
     color: #404bbf;
 }
 
@@ -118,6 +127,10 @@ ul {
     background: #404bbf;
 }
 
+.order-button:focus {
+    background: #404bbf;
+}
+
 
 
 
@@ -128,7 +141,7 @@ ul {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.02em;
+    letter-spacing: inherit;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
@@ -136,7 +149,7 @@ ul {
 
 .feature-tittle,
 .name-tittle
-.portfolio-title {
+.portfolio-tittle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
