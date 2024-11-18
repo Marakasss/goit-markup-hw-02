@@ -141,20 +141,18 @@ ul {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: inherit;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
 }
 
-.feature-tittle,
-.name-tittle,
-.portfolio-tittle {
+.feature-tittle, .name-tittle, .portfolio-tittle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: #2e2f42;
-    letter-spacing: inherit;
+    letter-spacing: 0.02em;
 }
 
 .team-section {
