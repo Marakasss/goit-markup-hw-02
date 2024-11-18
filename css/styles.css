@@ -165,10 +165,7 @@ ul {
     background-color: #fff;
 }
 
-/* Без цього рядка не проходить автоперевірка, хоча абзаци наслідують body. Не розумію чому */
-.feature-descr, .position, .portfolio-descr {
-    letter-spacing: 0.02em;
-}
+
 
 
 
