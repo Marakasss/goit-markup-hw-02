@@ -4,7 +4,6 @@ body {
     color: #434455;
     line-height: 1.5;
     font-weight: 400;
-    letter-spacing: 0.02em;
     background-color: #fff;
 }
 
@@ -72,7 +71,7 @@ ul {
     color: inherit;
     font-size: inherit;
     line-height: inherit;
-    letter-spacing: inherit;
+    
 
 }
 
