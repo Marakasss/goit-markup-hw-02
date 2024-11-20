@@ -50,14 +50,15 @@ ul {
 
 }
 
-.navbar-nav .link:hover {
+.navbar-nav .link:active,
+.navbar-nav .link:hover,
+.contacts .link:hover,
+.contacts .link:active,
+.contacts .link:focus {
     color: #404bbf;
 }
 
-.navbar-nav .link:active {
-    color: #404bbf;
-}
-
+ 
 .navbar-nav .link:focus {
     color: #404bbf;
     outline: none;
@@ -74,18 +75,6 @@ ul {
     letter-spacing: 0.02em;
     
 
-}
-
-.contacts .link:hover {
-    color: #404bbf;
-}
-
-.contacts .link:active {
-    color: #404bbf;
-}
-
-.contacts .link:focus {
-    color: #404bbf;
 }
 
 
@@ -133,6 +122,20 @@ ul {
 
 /*--------------------------- Sections --------------------------*/
 
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 .section-tittle {
     font-family: "Roboto", sans-serif;
