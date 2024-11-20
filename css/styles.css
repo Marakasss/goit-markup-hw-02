@@ -22,10 +22,8 @@ ul {
 }
 
 
+/*--------------------------- Navbar styles --------------------------*/
 
-
-
-/* Navbar styles */
 
 .navbar-logo {
     font-family: "Raleway", sans-serif;
@@ -91,9 +89,8 @@ ul {
 }
 
 
+/*--------------------------- Main tittle --------------------------*/
 
-
-/* Main tittle */
 
 .header-section {
     background: #2e2f42;
@@ -134,9 +131,8 @@ ul {
 }
 
 
+/*--------------------------- Sections --------------------------*/
 
-
-/* sections */
 
 .section-tittle {
     font-family: "Roboto", sans-serif;
@@ -149,7 +145,9 @@ ul {
     text-transform: capitalize;
 }
 
-.feature-tittle, .name-tittle, .portfolio-tittle {
+.feature-tittle, 
+.name-tittle, 
+.portfolio-tittle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -169,12 +167,12 @@ ul {
 .feature-descr,
 .position,
 .portfolio-descr {
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+}
 
 
+/*--------------------------- Footer --------------------------*/
 
-
-/* Footer */
 
 .footer-section {
     background-color: #2e2f42;
